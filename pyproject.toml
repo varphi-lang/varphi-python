@@ -1,6 +1,6 @@
 [project]
 name = "varphi-python"
-version = "0.0.0"
+version = "1.0.0"
 description = "An implementation of a Varphi-to-Python compiler"
 authors = [
     {name = "Hassan El-Sheikha",email = "hmelsheikha@gmail.com"}
