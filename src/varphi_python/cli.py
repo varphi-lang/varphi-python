@@ -1,6 +1,5 @@
-
-import typer
 from pathlib import Path
+import typer
 
 
 def varphi_python(
@@ -14,6 +13,7 @@ def varphi_python(
         help="Path to input Varphi source file"
     )
 ):
+    """Compile a Varphi source code file to Python"""
     from varphi_devkit import compile_varphi
     from .core import VarphiToPythonCompiler
     typer.echo(compile_varphi(
